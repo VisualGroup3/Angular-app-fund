@@ -1,0 +1,25 @@
+#form{
+  width:850px;
+  margin: 20px auto;
+  background-color: #508CA5;
+  border:solid black 1px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  color: white;
+}
+#searchTitle{
+  margin:50px auto 30px auto;
+}
+
+.form-select {
+  width: 50%;
+  background-color: transparent;
+  margin:10px;
+}
+
+.form-control{
+  width: 50%;
+  background-color: transparent;
+  margin-left:10px;
+  margin-bottom: 30px;
+}
