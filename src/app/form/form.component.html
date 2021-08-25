@@ -1,18 +1,19 @@
 
 <div id="form" class="container-sm">
-  <div class="row justify-content-center">
-    <h1 id="searchTitle">Weather Search</h1>
+  <div class="title">
+    <h1 id="searchTitle">Fund Management Search</h1>
   </div>
   <form class="form-floating">
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
+    <select class="form-select-lg mb-3" aria-label="Default select example">
+      <option selected>Choose information you search</option>
+      <option value="1">Get All Information</option>
+      <option value="2">Fund Manager</option>
+      <option value="3">Fund</option>
+      <option value="4">Position</option>
+      <option value="5">Security</option>
     </select>
-    <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
-    <label for="floatingInputValue">Input with value</label>
-    <button type="button" class="btn btn-primary" (click)="getManagers()">Search</button>
+
+    <button type="button" class="btn btn-light btn-lg" (click)="getManagers()">Search</button>
   </form>
 </div>
 
